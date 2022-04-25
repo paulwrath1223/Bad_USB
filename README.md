@@ -1,5 +1,9 @@
 # Bad_USB
-A PCB for a bad USB based on Malduino W, but with a built in hub to allow for use as a real USB stick
+A PCB for a bad USB based on Malduino W, but with a built in hub to allow for use as a real USB stick.
+
+A 'Bad USB' is a fake USB stick capable of injecting keystokes into any machine by pretending to be a keyboard, wile typically resembling a storage drive from the outside. This specific design attempts to remove the giveaway that the supposed USB stick does not have any storage, or even a drive. This is fixed by adding a USB hub internally that connects both the Cortex M0 (acting as keyboard) and the real USB stick to the computer, and because windows (and presumeably Mac and most Linux kernels) do not display if the USB stick is connected through a hub except in device manager. The other advantage this design offers is its webserver. The firmware is made by maltronics.com, and offers a rich interface for scripting keystrokes after the device is inserted, as opposed to most bad USBs which only have one payload that is executed as soon as it is plugged in.
+
+NOT FOR MALICIOUS USE! This is merely a tool to prank freinds, changing their desktop backrounds, or 'rick-rolling' them. (see https://en.wikipedia.org/wiki/Rickrolling)
 
 The main components are an ESP8266, an ARM Comtex M0, a USB hub controller, and a readily available USB stick. The USB stick is not in the scematic because it will be soldered on to pads with wires in order to save space by stacking.
 
