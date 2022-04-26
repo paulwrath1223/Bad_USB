@@ -7,6 +7,8 @@ NOT FOR MALICIOUS USE! This is merely a tool to prank freinds, changing their de
 
 The main components are an ESP8266, an ARM Comtex M0, a USB hub controller, and a readily available USB stick. The USB stick is not in the scematic because it will be soldered on to pads with wires in order to save space by stacking.
 
+Video of parts: https://youtu.be/rbTmVTV6ing
+
 ![PCB](https://user-images.githubusercontent.com/36117326/165008082-c7a45a37-7bfb-40b8-bb8d-5e70b1ca5f0a.png)
 
 ![usb_stick_case_1](https://user-images.githubusercontent.com/36117326/165008087-29787c1e-c635-467c-8c41-ae01c85e7de1.png)
